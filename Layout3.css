@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 80%;
+  min-height: 300px;
+  /* border: 4px solid #000;*/
+  margin: auto;
+}
+.main-header-div {
+  width: 100%;
+  height: 60px;
+}
+.main-header-div .logo {
+  width: 30%;
+  height: 60px;
+  background-color: black;
+  float: left;
+  margin-right: 10px;
+  /*margin-left: 15px;*/
+}
+.logo h1 {
+  color: white;
+  padding: 10px;
+}
+.main-header-div .menu {
+  width: 50%;
+  height: 60px;
+  background-color: black;
+  float: left;
+  margin-right: 10px;
+  padding: 15px;
+}
+.menu a {
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.menu a:hover {
+  background-color: green;
+  color: blue;
+}
+.main-header-div .follow {
+  width: 18%;
+  height: 60px;
+  background-color: black;
+  float: left;
+  /* margin-right: 10px;*/
+  padding-top: 10px;
+}
+.follow i {
+  color: white;
+  font-size: 1.5em;
+  padding: 10px;
+}
+.follow i:hover {
+  background-color: green;
+  color: blue;
+}
+.slider {
+  width: 100%;
+  height: 600px;
+  /*border: 3px solid red;*/
+  margin-top: 10px;
+}
+.slider img {
+  width: 100%;
+  height: 100%;
+}
+.main-prod-div {
+  width: 100%;
+  min-height: 320px;
+}
+.main-prod-div .box {
+  width: 32%;
+  height: 300px;
+  background-color: gray;
+  float: left;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 10px;
+}
+.main-prod-div .box:nth-child(2) {
+  margin-left: 17px;
+  margin-right: 17px;
+}
+.main-prod-div .box:nth-child(1) {
+  margin-left: 08px;
+}
+.box img {
+  width: 100%;
+  height: 100%;
+}
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #000;
+}
+.footer h3 {
+  color: white;
+  text-align: center;
+  line-height: 60px;
+}

@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 60%;
+  min-height: 100px;
+  margin: auto;
+  /*border: 3px solid #000;*/
+}
+
+.main-header-div {
+  width: 100%;
+  height: 60px;
+}
+
+.logo {
+  width: 45%;
+  height: 60px;
+  background-image: linear-gradient(30deg, #0f2027, #203a43, #2c5364);
+  float: left;
+}
+.logo h2 {
+  color: white;
+  padding: 15px;
+}
+.menu {
+  width: 52%;
+  height: 60px;
+  background-image: linear-gradient(30deg, #0f2027, #203a43, #2c5364);
+  float: right;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+.menu a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.menu a:hover {
+  background-color: green;
+  color: white;
+}
+.slider {
+  width: 100%;
+  height: 500px;
+  border: 5px solid black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.slider img {
+  width: 100%;
+  height: 100%;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.box {
+  width: 100%;
+  height: 600px;
+  /*border: 3px solid red;*/
+  margin-left: 6px;
+}
+.cards {
+  width: 32%;
+  height: 542px;
+  border: 3px solid black;
+  border-radius: 20px;
+  float: left;
+  margin-right: 12px;
+}
+
+.cards .images {
+  width: 100%;
+  height: 250px;
+  background-image: linear-gradient(30deg, #0f2027, #203a43, #2c5364);
+  border-radius: 20px;
+}
+
+.images img {
+  width: 70%;
+  height: 70%;
+  border-radius: 70%;
+  margin-top: 45px;
+  margin-left: 45px;
+  object-fit: cover;
+}
+.cards h2 {
+  padding-top: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cards p {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+.know_more {
+  margin-left: 90px;
+  margin-top: 25px;
+  width: 100px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+}
+.know_more:hover {
+  color: white;
+  background-color: black;
+}
+.Social {
+  width: 100%;
+  height: 50px;
+  background-color: cadetblue;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+.Social i {
+  padding: 15px;
+  font-size: 1.4em;
+  color: white;
+  margin-left: 12px;
+}
+.Social i:hover {
+  background-color: black;
+  color: white;
+}
+.footer {
+  width: 100%;
+  height: 60px;
+  background-image: linear-gradient(30deg, #0f2027, #203a43, #2c5364);
+  margin-top: 10px;
+}
+.footer h3 {
+  text-align: center;
+  line-height: 60px;
+  color: white;
+}
