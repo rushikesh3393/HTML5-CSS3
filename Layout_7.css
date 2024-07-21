@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 100;
+  min-height: 300px;
+  margin: auto;
+  /*border: 1px solid #000;*/
+}
+.main-header {
+  width: 100%;
+  height: 70px;
+  /*border: 1px solid #000;*/
+}
+.logo {
+  width: 25%;
+  height: 100%;
+  padding-left: 70px;
+  padding-top: 15px;
+  float: left;
+}
+.logo h1 {
+  font-size: 25px;
+}
+.menu {
+  float: right;
+  padding-top: 15px;
+  padding-right: 75px;
+}
+.menu ul {
+  list-style: none;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+.menu ul li {
+  display: inline;
+  padding-left: 30px;
+  margin-left: 25px;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+}
+ul li a:hover {
+  background-color: black;
+  color: white;
+}
+input[type="button"] {
+  width: 100px;
+  height: 30px;
+  margin-left: 20px;
+  background-color: green;
+  color: white;
+}
+.our-blog {
+  width: 100%;
+  height: 500px;
+  background-image: url(../Html/images/Home_Interior.webp);
+  color: rgb(6, 6, 6);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+}
+.our-blog h1 {
+  text-align: center;
+  padding-top: 240px;
+  font-size: 50px;
+}
+.our-blog {
+  text-align: center;
+}
+.Articles {
+  width: 100%;
+  height: 1000px;
+  /*border: 5px solid #a60505;*/
+  font-family: "Open Sans", sans-serif;
+}
+.Articles h6 {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 15px;
+}
+.Articles h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 45px;
+}
+.Articles h4 {
+  text-align: center;
+  font-weight: 200;
+}
+.blogs {
+  width: 100%;
+  height: 370px;
+  /*border: 1px solid hsl(0, 0%, 0%);*/
+  margin-top: 30px;
+  padding-left: 170px;
+}
+.blogs .each-blog {
+  width: 25%;
+  height: 100%;
+  /*border: 1px solid #000;*/
+  float: left;
+  margin-left: 40px;
+}
+.blogs .each-blog img {
+  width: 100%;
+  height: 200px;
+}
+.each-blog h3 {
+  padding: 5px;
+}
+.blogs .each-blog h5 {
+  text-align: justify;
+  padding: 5px;
+  font-weight: 200;
+}
+.blogs .each-blog a {
+  padding-left: 5px;
+  color: green;
+  text-decoration: none;
+}
+.Address {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  color: white;
+  padding-left: 65px;
+  padding-top: 25px;
+  margin-top: 50px;
+}
+.section1 {
+  width: 350px;
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 50px;
+  float: left;
+}
+.section1 p {
+  padding-top: 10px;
+  font-weight: 200;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+.section1 h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.section2 {
+  width: 180px;
+  height: 100%;
+
+  float: left;
+  margin-left: 50px;
+  color: white;
+}
+.section2 h2 {
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+.section2 ul {
+  list-style: none;
+}
+.section2 ul li {
+  padding-top: 20px;
+}
+.section2 ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.section3 {
+  width: 180px;
+  height: 100%;
+
+  float: left;
+  margin-left: 50px;
+  color: white;
+}
+.section3 h2 {
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+.section3 ul {
+  list-style: none;
+}
+.section3 ul li {
+  padding-top: 20px;
+}
+.section3 ul li a {
+  color: white;
+  text-decoration: none;
+}
+.section4 {
+  width: 400px;
+  height: 100%;
+  float: left;
+  padding-top: 53px;
+  margin-left: 65px;
+}
+.section4 h1 {
+  margin-bottom: 10px;
+}
+.section4 p {
+  padding-top: 20px;
+  text-align: justify;
+}
+input[type="email"] {
+  width: 200px;
+  height: 30px;
+  margin-top: 25px;
+}
+input[type="submit"] {
+  width: 60px;
+  height: 30px;
+  background-color: rgb(4, 151, 85);
+}
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  color: white;
+}
+.footer h4 {
+  text-align: center;
+  line-height: 70px;
+  float: left;
+  padding-left: 110px;
+}
+.footer i {
+  float: right;
+  padding-top: 20px;
+  padding-right: 50px;
+  margin-right: 60px;
+}
+.footer i:hover {
+  background-color: green;
+  color: black;
+}

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  background: linear-gradient(270deg, #3c3b3f, #605c3c),
+    url(../Html/images/Office\ Boss1.png);
+  background-blend-mode: exclusion;
+  background-repeat: no-repeat;
+}
+section .contents {
+  max-width: 700px;
+}
+.contents h1 {
+  font-size: 3em;
+  color: currentColor;
+  font-weight: bold;
+}
+.contents p {
+  font-size: 1.2em;
+  color: black;
+  font-weight: 700;
+}
+section img {
+  position: relative;
+  max-width: 350px;
+  margin-top: 200px;
+  z-index: 1;
+}
+.wave {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.custom-shape-divider-bottom-1716354117 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1716354117 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 156px;
+}
+
+.custom-shape-divider-bottom-1716354117 .shape-fill {
+  fill: #ffffff;
+}
+.menu {
+  position: absolute;
+  right: 100px;
+  top: 0;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu ul li {
+  padding: 15px;
+  padding-top: 25px;
+}
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.menu ul li a:hover {
+  background-color: black;
+  color: white;
+}
